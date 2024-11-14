@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+#divForm {
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 3vh;
+    padding: 50px;
+}
+
+#divScript {
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 3vh;
+    padding: 50px;
+}
+
+#divRiepilogo {
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 3vh;
+    padding: 50px;
+}
+
+.sendButton {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 1vh;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+ul, li {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}

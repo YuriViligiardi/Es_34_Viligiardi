@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>frase.html</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="script.php" method="post">
+        <div id="divForm">
+            <h1>FRASE</h1>
+            <p><b><i>Inserisci una frase:</i></b></p>
+            <textarea name="frase"></textarea>
+            <p><b><i>Scegliere un valore di importanza:</i></b></p>
+            <select name="importanza">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <br>
+            <br>
+            <input class="sendButton" type="submit" value="SALVA">
+            <br>
+            <br>
+            <a class="sendButton" href="./riepilogo.php">MOSTRA TUTTO</a>
+        </div>
+    </form>
+</body>
+</html>

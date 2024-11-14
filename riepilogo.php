@@ -47,10 +47,20 @@
                     echo "<li>$value</li>";
                 }
                 echo "</ul>";
+                
+                echo "<br>";
+                echo "<br>";
 
-                echo "<h4>Numero totale di parole di tutte le frasi inviate: " . calcutaleTotalWords() . "</h4>";
-
-                echo "<h4>Numero totale di caratteri di tutte le frasi inviate: " . calcutaleTotalCharacters() . "</h4>";
+                echo "<table>";
+                    echo "<tr>";
+                        echo "<th>Num.Tot.Parole</th>";
+                        echo "<th>Num.Tot.Caratteri</th>";
+                    echo "</tr>";
+                    echo "<tr>";
+                        echo "<td>" . calcutaleTotalWords() . "</td>";
+                        echo "<td>" . calcutaleTotalCharacters() . "</td>";
+                    echo "</tr>";
+                echo "</table>";
                 
                 echo "<br>";
                 echo "<br>";

@@ -46,7 +46,7 @@
             $arrayParole = $_SESSION["numParole"];
             $arrayParole[] = str_word_count($f);
             $_SESSION["numParole"] = $arrayParole;
-
+            
             $arrayCaratteri = $_SESSION["numCaratteri"];
             $arrayCaratteri[] = strlen($f);
             $_SESSION["numCaratteri"] = $arrayCaratteri;
